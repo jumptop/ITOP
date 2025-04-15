@@ -1,0 +1,86 @@
+[
+  {
+    "id": "db-1",
+    "question": "데이터베이스에서 데이터의 무결성을 유지하기 위해 사용되는 제약조건 중, 기본키(Primary Key)의 특성으로 옳지 않은 것은 무엇인지 골라 쓰시오",
+    "answer": "NULL",
+    "example": "1. UNIQUE\n2. NOT NULL\n3. NULL\n4. 단일값",
+    "difficulty": 2
+  },
+  {
+    "id": "db-2",
+    "question": "아래의 보기를 참조하여 빈칸에 들어갈 알맞은 용어를 작성하시오",
+    "answer": "정규화",
+    "example": "데이터 중복 제거 -> (     ) -> 데이터 무결성 보장 -> 데이터 일관성 유지",
+    "difficulty": 3
+  },
+  {
+    "id": "db-3",
+    "question": "SQL에서 데이터를 조회할 때 사용하는 명령어는 무엇인지 \"영문 약어로\" 쓰시오",
+    "answer": "SELECT",
+    "example": null,
+    "difficulty": 1
+  },
+  {
+    "id": "db-4",
+    "question": "다음 중 트랜잭션의 특성(ACID)에 해당하지 않는 것은 무엇인지 골라 쓰시오",
+    "answer": "Concurrency",
+    "example": "1. Atomicity\n2. Consistency\n3. Isolation\n4. Durability\n5. Concurrency",
+    "difficulty": 3
+  },
+  {
+    "id": "db-5",
+    "question": "데이터베이스에서 인덱스(Index)의 주요 목적은 무엇인지 쓰시오",
+    "answer": "검색속도향상",
+    "example": null,
+    "difficulty": 2
+  },
+  {
+    "id": "db-6",
+    "question": "다음 보기에서 관계형 데이터베이스(RDBMS)에 해당하는 것들을 모두 골라 쓰시오",
+    "answer": "1,3,5",
+    "example": "1. MySQL\n2. MongoDB\n3. Oracle\n4. Redis\n5. PostgreSQL\n6. Cassandra",
+    "difficulty": 2
+  },
+  {
+    "id": "db-7",
+    "question": "다음 중 정규화의 단계를 올바른 순서대로 나열한 것은 무엇인지 골라 쓰시오",
+    "answer": "1NF,2NF,3NF,BCNF",
+    "example": "1. 1NF -> 2NF -> 3NF -> BCNF\n2. BCNF -> 3NF -> 2NF -> 1NF\n3. 2NF -> 1NF -> 3NF -> BCNF\n4. 1NF -> 3NF -> 2NF -> BCNF",
+    "difficulty": 3
+  },
+  {
+    "id": "db-8",
+    "question": "다음 보기에서 트랜잭션의 ACID 특성과 관련된 개념들을 모두 골라 쓰시오",
+    "answer": "1,2,4,5",
+    "example": "1. 원자성\n2. 일관성\n3. 확장성\n4. 격리성\n5. 지속성\n6. 가용성",
+    "difficulty": 3
+  },
+  {
+    "id": "db-9",
+    "question": "인덱스 구현에 가장 많이 사용되는 자료구조는 무엇인지 쓰시오",
+    "answer": "B-Tree",
+    "example": null,
+    "difficulty": 3
+  },
+  {
+    "id": "db-10",
+    "question": "다음 보기의 SQL JOIN 종류 중 두 테이블의 공통 데이터만 반환하는 것은 무엇인지 골라 쓰시오",
+    "answer": "INNER JOIN",
+    "example": "1. INNER JOIN\n2. LEFT JOIN\n3. RIGHT JOIN\n4. FULL JOIN\n5. CROSS JOIN",
+    "difficulty": 2
+  },
+  {
+    "id": "db-11",
+    "question": "다음 보기에서 데이터베이스 락(Lock)의 종류를 모두 골라 쓰시오",
+    "answer": "1,2,4",
+    "example": "1. 공유락(Shared Lock)\n2. 배타적락(Exclusive Lock)\n3. 복합락(Composite Lock)\n4. 의도적락(Intent Lock)\n5. 연결락(Connection Lock)",
+    "difficulty": 4
+  },
+  {
+    "id": "db-12",
+    "question": "다음 중 데이터베이스 뷰(View)의 특징으로 올바르지 않은 것은 무엇인지 골라 쓰시오",
+    "answer": "물리적저장",
+    "example": "1. 가상테이블\n2. 물리적저장\n3. 보안강화\n4. 쿼리단순화\n5. 데이터추상화",
+    "difficulty": 2
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "hardsql-1",
+    "question": "SQL에서 서브쿼리(Subquery)를 사용할 때 EXISTS와 IN의 차이점은 무엇인지 쓰시오",
+    "answer": "성능차이",
+    "example": null,
+    "difficulty": 3
+  },
+  {
+    "id": "hardsql-2",
+    "question": "다음 중 SQL의 윈도우 함수(Window Function)에 해당하지 않는 것은 무엇인지 골라 쓰시오",
+    "answer": "GROUP_CONCAT",
+    "example": "1. ROW_NUMBER\n2. RANK\n3. DENSE_RANK\n4. GROUP_CONCAT\n5. LAG",
+    "difficulty": 3
+  },
+  {
+    "id": "hardsql-3",
+    "question": "아래의 보기를 참조하여 빈칸에 들어갈 알맞은 용어를 작성하시오",
+    "answer": "CTE",
+    "example": "WITH (     ) AS (SELECT ...) SELECT * FROM CTE",
+    "difficulty": 3
+  },
+  {
+    "id": "hardsql-4",
+    "question": "SQL에서 재귀 쿼리를 작성할 때 사용하는 키워드는 무엇인지 \"영문 약어로\" 쓰시오",
+    "answer": "RECURSIVE",
+    "example": null,
+    "difficulty": 4
+  },
+  {
+    "id": "hardsql-5",
+    "question": "다음 중 SQL의 성능 최적화 기법에 해당하지 않는 것은 무엇인지 골라 쓰시오",
+    "answer": "CURSOR",
+    "example": "1. 인덱스\n2. 파티셔닝\n3. CURSOR\n4. 실행계획\n5. 통계정보",
+    "difficulty": 4
+  },
+  {
+    "id": "hardsql-6",
+    "question": "다음 중 SQL에서 집계 함수(Aggregate Function)에 해당하지 않는 것을 고르시오",
+    "answer": "RANK",
+    "example": "1. SUM\n2. AVG\n3. COUNT\n4. RANK\n5. MAX",
+    "difficulty": 3
+  },
+  {
+    "id": "hardsql-7",
+    "question": "SQL에서 NULL 값을 처리할 때 사용하는 함수 중, NULL일 경우 대체값을 반환하는 함수를 쓰시오",
+    "answer": "IFNULL",
+    "example": "예: SELECT (     )(column, '없음') FROM table;",
+    "difficulty": 3
+  },
+  {
+    "id": "hardsql-8",
+    "question": "다음 보기 중 SQL의 조인(Join) 방식에 해당하지 않는 것을 고르시오",
+    "answer": "MERGE",
+    "example": "1. INNER\n2. LEFT\n3. RIGHT\n4. FULL\n5. MERGE",
+    "difficulty": 4
+  },
+  {
+    "id": "hardsql-9",
+    "question": "SQL에서 트랜잭션을 수동으로 시작할 때 사용하는 키워드를 쓰시오",
+    "answer": "BEGIN",
+    "example": null,
+    "difficulty": 4
+  },
+  {
+    "id": "hardsql-10",
+    "question": "다음 보기 중 SQL의 데이터 무결성(Data Integrity) 제약조건에 해당하지 않는 것을 고르시오",
+    "answer": "FORMAT",
+    "example": "1. PRIMARY\n2. UNIQUE\n3. CHECK\n4. FOREIGN\n5. FORMAT",
+    "difficulty": 4
+  },
+  {
+    "id": "hardsql-11",
+    "question": "SQL에서 SELECT 문 결과에서 중복을 제거하기 위해 사용하는 키워드를 쓰시오",
+    "answer": "DISTINCT",
+    "example": null,
+    "difficulty": 2
+  },
+  {
+    "id": "hardsql-12",
+    "question": "다음 중 SQL의 DCL(Data Control Language)에 해당하는 명령어가 아닌 것을 고르시오",
+    "answer": "DELETE",
+    "example": "1. GRANT\n2. REVOKE\n3. DELETE\n4. DENY\n5. NONE",
+    "difficulty": 3
+  },
+  {
+    "id": "hardsql-13",
+    "question": "SQL에서 테이블 구조를 변경할 때 사용하는 명령어를 쓰시오",
+    "answer": "ALTER",
+    "example": null,
+    "difficulty": 2
+  },
+  {
+    "id": "hardsql-14",
+    "question": "다음 보기 중 SQL의 데이터 타입(Data Type)에 해당하지 않는 것을 고르시오",
+    "answer": "OBJECT",
+    "example": "1. INT\n2. VARCHAR\n3. DATE\n4. OBJECT\n5. BOOLEAN",
+    "difficulty": 3
+  },
+  {
+    "id": "hardsql-15",
+    "question": "SQL에서 조건문을 처리할 수 있는 함수로 알맞은 것을 보기에서 고르시오",
+    "answer": "CASE",
+    "example": "1. WHEN\n2. CASE\n3. IFNULL\n4. BETWEEN\n5. LIKE",
+    "difficulty": 3
+  }
+]
