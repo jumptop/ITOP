@@ -166,4 +166,4 @@ MIT
 
 ## 연락처
 
-프로젝트 관련 문의: your-email@example.com 
+프로젝트 관련 문의: wjdghksgml5754@gmail.com
